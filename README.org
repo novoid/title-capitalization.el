@@ -1,0 +1,49 @@
+## Time-stamp: <2015-06-16 21:34:53 vk>
+## -*- mode: org; coding: utf-8 -*-
+## This file is best viewed with GNU Emacs Org-mode: http://orgmode.org/
+
+* title-capitalization.el --- Proper English title capitalization of a marked region
+
+This Emacs package provides the function ~title-capitalization~. In
+case you selected a region (usually a heading/title), this function
+does capitalize the words according to general English rules.
+
+For details, please do read my blog entry on
+http://karl-voit.at/2015/05/25/elisp-title-capitalization/
+
+** Why
+
+It is wasted brain energy to do the task by yourself.
+
+** Usage
+
+Mark the line of your title and invoke: ~title-capitalization~
+
+I have mapped it to ~C-c C-, c~ via:
+
+: (global-set-key (kbd "C-c C-,") 'my-map) ;; my personal prefix/map
+: (define-key my-map "c" 'title-capitalization)
+
+** Bonus: Your Own List of Exceptions
+
+You can define a variable containing a list with exceptions. For
+example, if you want to have "[[https://github.com/novoid/lazyblorg][lazyblorg]]" and "[[http://www.mutt.org/][mutt]]" not capitalized in
+headings, use following snippet:
+
+: ;; additionally to the list defined in title-capitalization:
+: (defvar my-do-not-capitalize-words '("lazyblorg" "mutt")
+:   "My personal list of words that doesn't get capitalized in titles.")
+
+* Contributions
+
+I got the idea for this code from [[http://dougscripts.com/itunes/scripts/ss.php?sp=titlecaps][a script by Doug Adams]].
+
+The code contains valuable and major contributions from David Mann,
+Barry Fishman, and others from the Emacs development mailinglist.
+
+* Local Variables                                                  :noexport:
+# Local Variables:
+# mode: auto-fill
+# mode: flyspell
+# eval: (ispell-change-dictionary "en_US")
+# End:

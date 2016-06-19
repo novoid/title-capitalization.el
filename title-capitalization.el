@@ -7,7 +7,7 @@
 ;; Created: 2015-06-16
 ;; Version: 0.1
 ;; Keywords: lisp, tools
-;; Package-Requires: 
+;; Package-Requires:
 
 ;;; Code:
 
@@ -47,7 +47,8 @@
       ;; go through the region, word by word:
       (while (< (point) end)
         (skip-syntax-forward "^w" end)
-        (let ((word (thing-at-point 'word t)))
+        (let ((word (thing-at-point 'word)))
+;;        (let ((word (thing-at-point 'word t)))
           (if (stringp word)
               ;; capitalize current word except it is list member:
               (if (member (downcase word) do-not-capitalize-words)

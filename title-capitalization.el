@@ -81,4 +81,5 @@
 ;; this is a test and as at but mutt textsecure lazyblorg foobar
 ;; This Is a Test and as at but mutt Textsecure lazyblorg Foobar
 
+(provide 'title-capitalization)
 ;;; title-capitalization.el ends here

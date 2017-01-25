@@ -39,7 +39,8 @@ headings, use following snippet:
 I got the idea for this code from [[http://dougscripts.com/itunes/scripts/ss.php?sp=titlecaps][a script by Doug Adams]].
 
 The code contains valuable and major contributions from David Mann,
-Barry Fishman, and others from the Emacs development mailinglist.
+Barry Fishman, Santiago Mejia, Julien Chastang, and others from the 
+Emacs development mailinglist.
 
 * Local Variables                                                  :noexport:
 # Local Variables:

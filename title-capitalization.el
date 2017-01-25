@@ -2,7 +2,7 @@
 ;; Time-stamp: <2017-01-25 16:15:55 karl.voit>
 ;; Copyright (C) 2015 and later by Karl Voit
 
-;; Authors: Karl Voit <tools@Karl-Voit.at>, David Mann, Barry Fishma, Santiago Mejia
+;; Authors: Karl Voit <tools@Karl-Voit.at>, David Mann, Barry Fishma, Santiago Mejia, Julien Chastang
 ;; Maintainer: Karl Voit <tools@Karl-Voit.at>
 ;; License: GPL v3 (see LICENSE file)
 ;; URL: https://github.com/novoid/title-capitalization.el

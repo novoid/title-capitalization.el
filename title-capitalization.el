@@ -1,9 +1,12 @@
 ;;; title-capitalization.el --- Proper English title capitalization of a marked region
+;; Time-stamp: <2017-01-25 16:15:55 karl.voit>
 ;; Copyright (C) 2015 and later by Karl Voit
 
-;; Author: Karl Voit <tools@Karl-Voit.at>
+;; Authors: Karl Voit <tools@Karl-Voit.at>, David Mann, Barry Fishma, Santiago Mejia
 ;; Maintainer: Karl Voit <tools@Karl-Voit.at>
-;; URL: http://github.com/nicferrier/example
+;; License: GPL v3 (see LICENSE file)
+;; URL: https://github.com/novoid/title-capitalization.el
+;;      http://www.Karl-Voit.at/2015/05/25/elisp-title-capitalization/
 ;; Created: 2015-06-16
 ;; Version: 0.1
 ;; Keywords: lisp, tools

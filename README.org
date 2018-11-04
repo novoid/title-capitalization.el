@@ -1,4 +1,4 @@
-## Time-stamp: <2015-06-16 21:34:53 vk>
+## Time-stamp: <2018-11-04 16:44:17 vk>
 ## -*- mode: org; coding: utf-8 -*-
 ## This file is best viewed with GNU Emacs Org-mode: http://orgmode.org/
 
@@ -34,12 +34,22 @@ headings, use following snippet:
 : (defvar my-do-not-capitalize-words '("lazyblorg" "mutt")
 :   "My personal list of words that doesn't get capitalized in titles.")
 
+** Similar Projects
+:PROPERTIES:
+:CREATED:  [2018-11-04 Sun 16:41]
+:END:
+
+- [[https://github.com/yuutayamada/auto-capitalize-el][auto-capitalize.el]] from [[https://github.com/yuutayamada][yuutayamada]]
+  - Tries to do all the capitalization work for you
+- [[http://irreal.org/blog/?p=7585][irreal blog entry]] on [[http://ergoemacs.org/index.html][Xah Lee's]] [[http://ergoemacs.org/emacs/emacs_upcase_sentence.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+XahsEmacsBlog+(Xah%2527s+Emacs+Blog)][xah-upcase-sentence]]
+  - Upcase first letters of sentences of current text block or selection
+
 * Contributions
 
 I got the idea for this code from [[http://dougscripts.com/itunes/scripts/ss.php?sp=titlecaps][a script by Doug Adams]].
 
 The code contains valuable and major contributions from David Mann,
-Barry Fishman, Santiago Mejia, Julien Chastang, and others from the 
+Barry Fishman, Santiago Mejia, Julien Chastang, and others from the
 Emacs development mailinglist.
 
 * Local Variables                                                  :noexport:
